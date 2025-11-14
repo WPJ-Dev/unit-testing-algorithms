@@ -1,6 +1,21 @@
 const hasDuplicateIds = require('./hasduplicateids');
 
-describe('DOMM Tree Has Duplicate IDs', () => {
+describe('DOM Tree Has Duplicate IDs', () => {
+
+    // let root;
+    // beforeEach(() => {
+    //     root = document.createElement('div');
+    //     const child1 = document.createElement('div');
+    //     const child2 = document.createElement('div');
+        
+    //     root.appendChild(child1);
+    //     root.appendChild(child2);
+    // });
+
+    // afterEach(() => {
+    //     root = null;
+    // });
+
     it('should be a function', () => {
         expect(typeof hasDuplicateIds).toEqual('function');
     });
